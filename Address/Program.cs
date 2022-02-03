@@ -1,6 +1,4 @@
 ﻿using Address;
-using AddressBookSystem;
-
 class program
 {
     Contact contact = new Contact();
