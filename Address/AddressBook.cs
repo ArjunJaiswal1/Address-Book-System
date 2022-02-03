@@ -40,6 +40,11 @@ namespace Address
                 }
             }
         }
+
+        internal void EditContact(string? name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
