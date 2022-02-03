@@ -29,6 +29,18 @@ namespace Address
 
             }
         }
+        public void DeleteContact(string user)
+        {
+            Contact delete = new Contact();
+            foreach (var contact in addressList)
+            {
+                if (contact.FirstName == user || contact.LastName == user)
+                {
+                    addressList.Remove(contact);
+                }
+            }
+        }
     }
 }
+
     
